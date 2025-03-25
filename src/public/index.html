@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Test</title>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Chat Test</h1>
+    <div>
+        <label for="channel">Channel ID:</label>
+        <input type="text" id="channel" placeholder="Enter Channel ID">
+        <button onclick="joinChannel()">Join</button>
+    </div>
+    <hr>
+    <div id="chat"></div>
+    <input type="text" id="message" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        const socket = io("http://localhost:5433");
+
+        function joinChannel() {
+            const channelId = document.getElementById("channel").value;
+            if (!channelId) return alert("Enter a channel ID");
+
+            socket.emit("joinChannel", channelId);
+            alert(`Joined channel: ${channelId}`);
+
+            // Listen for new messages
+            socket.on("receiveMessage", (data) => {
+                const chat = document.getElementById("chat");
+                chat.innerHTML += `<p><strong>${data.sender}:</strong> ${data.content}</p>`;
+            });
+        }
+
+        function sendMessage() {
+            const channelId = document.getElementById("channel").value;
+            const message = document.getElementById("message").value;
+            if (!channelId || !message) return alert("Enter channel and message");
+
+            socket.emit("sendMessage", { channelId, message, sender: "TestUser" });
+            document.getElementById("message").value = "";
+        }
+    </script>
+</body>
+</html>

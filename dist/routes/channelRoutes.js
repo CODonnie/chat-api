@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.channelRouter = void 0;
+var express_1 = require("express");
+var channelsController_1 = require("../controllers/channelsController");
+var authMiddleware_1 = require("../middleware/authMiddleware");
+exports.channelRouter = (0, express_1.Router)();
+exports.channelRouter.post("/create/:workspaceId", authMiddleware_1.protect, channelsController_1.createChannel);
+exports.channelRouter.get("/get/:workspaceId", authMiddleware_1.protect, channelsController_1.getChannels);
+exports.channelRouter.delete("/delete/:channelId", authMiddleware_1.protect, channelsController_1.deleteChannel);

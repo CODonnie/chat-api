@@ -1,0 +1,204 @@
+2025-03-11T10:16:51.206Z [INFO] user 67d00d914b4fc7d8366d2c6c created successfully
+2025-03-11T10:17:27.787Z [INFO] user 67d00d914b4fc7d8366d2c6c login successfully
+2025-03-11T10:45:50.784Z [WARN] Unauthorised user - no token provided
+2025-03-11T13:07:48.586Z [INFO] user 67d035a39009a2a67e2517e2 created successfully
+2025-03-11T13:08:26.093Z [INFO] user 67d035a39009a2a67e2517e2 login successfully
+2025-03-11T13:09:37.162Z [INFO] user 67d0360f9009a2a67e2517e6 created successfully
+2025-03-11T13:10:13.732Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-11T13:11:41.702Z [WARN] Unauthorised access attempt by 67d035a39009a2a67e2517e2
+2025-03-11T13:12:53.948Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6
+2025-03-11T13:15:56.742Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6
+2025-03-11T13:18:02.780Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6
+2025-03-11T13:20:25.321Z [WARN] Unauthorised access attempt by [object Object]
+2025-03-11T13:23:55.066Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6 undefined
+2025-03-11T13:26:29.202Z [INFO] user logged out
+2025-03-11T13:26:39.112Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-11T13:31:55.189Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-11T13:32:44.013Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6 undefined
+2025-03-11T13:35:18.342Z [WARN] Unauthorised access attempt by 67d0360f9009a2a67e2517e6 undefined
+2025-03-11T13:45:03.446Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-13T12:26:59.863Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-13T12:30:02.906Z [INFO] new workspace created - {
+  name: 'Just Dubs',
+  owner: new ObjectId('67d0360f9009a2a67e2517e6'),
+  members: [ new ObjectId('67d0360f9009a2a67e2517e6') ],
+  _id: new ObjectId('67d2cfca7f04076b61a09fd8'),
+  createdAt: 2025-03-13T12:30:02.641Z,
+  updatedAt: 2025-03-13T12:30:02.641Z,
+  __v: 0
+}
+2025-03-13T12:48:37.343Z [INFO] new workspace created - {
+  name: 'OKC niggs',
+  owner: new ObjectId('67d0360f9009a2a67e2517e6'),
+  members: [ new ObjectId('67d0360f9009a2a67e2517e6') ],
+  _id: new ObjectId('67d2d425f9e5efd2d932581b'),
+  createdAt: 2025-03-13T12:48:37.096Z,
+  updatedAt: 2025-03-13T12:48:37.096Z,
+  __v: 0
+}
+2025-03-13T12:52:37.793Z [INFO] workspace [object Object] retrieved successfully
+2025-03-13T13:02:45.266Z [INFO] workspace 67d2cfca7f04076b61a09fd8 retrieved successfully
+2025-03-13T13:23:35.199Z [WARN] Unauthorised user - no token provided
+2025-03-13T13:27:32.230Z [ERROR] auth error - TokenExpiredError: jwt expired
+2025-03-13T13:29:32.434Z [ERROR] auth error - TokenExpiredError: jwt expired
+2025-03-13T13:30:49.439Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-13T13:31:44.339Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-13T13:32:31.082Z [INFO] workspace 67d2cfca7f04076b61a09fd8 retrieved successfully
+2025-03-13T13:33:19.240Z [INFO] workspace 67d2cfca7f04076b61a09fd8 retrieved successfully
+2025-03-13T13:34:58.893Z [INFO] workspace 67d2cfca7f04076b61a09fd8 retrieved successfully
+2025-03-13T13:38:25.596Z [INFO] workspace 67d2d425f9e5efd2d932581b removed
+2025-03-13T13:39:26.016Z [WARN] workspace 67d2d425f9e5efd2d932581b not found
+2025-03-14T15:44:01.912Z [INFO] user 67d0360f9009a2a67e2517e6 login successfully
+2025-03-14T15:45:02.777Z [WARN] workspace 67d2d425f9e5efd2d932581b not found
+2025-03-14T16:04:30.141Z [INFO] user 67d4538cff96a3b2c2cf3676 created successfully
+2025-03-14T16:05:35.981Z [INFO] user 67d4538cff96a3b2c2cf3676 login successfully
+2025-03-14T16:08:11.422Z [ERROR] error retrieving workspace - TypeError: Cannot read properties of undefined (reading 'toString')
+2025-03-14T16:10:04.674Z [WARN] workspace 67d2d425f9e5efd2d932581b not found
+2025-03-14T16:10:48.277Z [INFO] workspace 67d2cfca7f04076b61a09fd8 retrieved successfully
+2025-03-14T16:12:39.079Z [ERROR] error retrieving workspace - TypeError: Cannot read properties of undefined (reading 'toString')
+2025-03-14T16:26:27.773Z [WARN] Unauthorise user - 67d0360f9009a2a67e2517e6 not admin
+2025-03-14T16:28:54.964Z [INFO] new workspace created - {
+  name: 'Podz niggs',
+  owner: new ObjectId('67d4538cff96a3b2c2cf3676'),
+  members: [
+    {
+      user: new ObjectId('67d4538cff96a3b2c2cf3676'),
+      role: 'admin',
+      _id: new ObjectId('67d459464ebe3c55deabea47')
+    }
+  ],
+  _id: new ObjectId('67d459464ebe3c55deabea46'),
+  createdAt: 2025-03-14T16:28:54.694Z,
+  updatedAt: 2025-03-14T16:28:54.694Z,
+  __v: 0
+}
+2025-03-14T16:31:30.520Z [INFO] new workspace created - {
+  name: 'Podz Workout',
+  owner: new ObjectId('67d4538cff96a3b2c2cf3676'),
+  members: [
+    {
+      user: new ObjectId('67d4538cff96a3b2c2cf3676'),
+      role: 'admin',
+      _id: new ObjectId('67d459e24ebe3c55deabea4d')
+    }
+  ],
+  _id: new ObjectId('67d459e24ebe3c55deabea4c'),
+  createdAt: 2025-03-14T16:31:30.296Z,
+  updatedAt: 2025-03-14T16:31:30.296Z,
+  __v: 0
+}
+2025-03-14T16:31:44.201Z [INFO] new workspace created - {
+  name: 'Podz 3s',
+  owner: new ObjectId('67d4538cff96a3b2c2cf3676'),
+  members: [
+    {
+      user: new ObjectId('67d4538cff96a3b2c2cf3676'),
+      role: 'admin',
+      _id: new ObjectId('67d459ef4ebe3c55deabea50')
+    }
+  ],
+  _id: new ObjectId('67d459ef4ebe3c55deabea4f'),
+  createdAt: 2025-03-14T16:31:43.975Z,
+  updatedAt: 2025-03-14T16:31:43.975Z,
+  __v: 0
+}
+2025-03-14T16:33:22.998Z [WARN] Unauthorise user - 67d4538cff96a3b2c2cf3676 not admin
+2025-03-14T16:33:33.842Z [WARN] Unauthorise user - 67d0360f9009a2a67e2517e6 not admin
+2025-03-14T16:34:35.239Z [WARN] Unauthorise user - 67d0360f9009a2a67e2517e6 not admin
+2025-03-14T16:35:10.041Z [INFO] workspace 67d459ef4ebe3c55deabea4f removed
+2025-03-14T16:56:05.177Z [INFO] new workspace created - {
+  name: 'new Podz 3s',
+  owner: new ObjectId('67d4538cff96a3b2c2cf3676'),
+  members: [
+    {
+      user: new ObjectId('67d4538cff96a3b2c2cf3676'),
+      role: 'admin',
+      _id: new ObjectId('67d45fa401d7bb28aa409fab')
+    }
+  ],
+  _id: new ObjectId('67d45fa401d7bb28aa409faa'),
+  createdAt: 2025-03-14T16:56:04.929Z,
+  updatedAt: 2025-03-14T16:56:04.929Z,
+  __v: 0
+}
+2025-03-16T16:22:22.835Z [INFO] user 67d6fabdbc783c1fcd7bbc6d created successfully
+2025-03-16T16:23:17.783Z [WARN] User doesn't exists
+2025-03-16T16:24:06.901Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-16T16:25:43.474Z [INFO] new workspace created - {
+  name: 'The Dubs',
+  owner: new ObjectId('67d6fabdbc783c1fcd7bbc6d'),
+  members: [
+    {
+      user: new ObjectId('67d6fabdbc783c1fcd7bbc6d'),
+      role: 'admin',
+      _id: new ObjectId('67d6fb87bc783c1fcd7bbc72')
+    }
+  ],
+  pendingInvites: [],
+  _id: new ObjectId('67d6fb87bc783c1fcd7bbc71'),
+  createdAt: 2025-03-16T16:25:43.232Z,
+  updatedAt: 2025-03-16T16:25:43.232Z,
+  __v: 0
+}
+2025-03-16T16:26:53.876Z [INFO] workspace undefined retrieved successfully
+2025-03-16T16:33:40.935Z [WARN] User not found, can't invite
+2025-03-16T16:34:19.592Z [INFO] user 67d4538cff96a3b2c2cf3676 invited successfully
+2025-03-16T16:36:14.410Z [INFO] workspace 67d6fb87bc783c1fcd7bbc71 retrieved successfully
+2025-03-16T16:37:47.134Z [INFO] user 67d4538cff96a3b2c2cf3676 login successfully
+2025-03-16T16:44:41.131Z [WARN] User 67d4538cff96a3b2c2cf3676not invited to workspace 67d6fb87bc783c1fcd7bbc71
+2025-03-16T16:56:51.611Z [WARN] User undefined not invited to workspace 67d6fb87bc783c1fcd7bbc71
+2025-03-16T17:06:14.094Z [WARN] User [object Object] not invited to workspace 67d6fb87bc783c1fcd7bbc71
+2025-03-16T17:16:01.398Z [INFO] User 67d4538cff96a3b2c2cf3676 added to workspace 67d6fb87bc783c1fcd7bbc71
+2025-03-17T14:14:15.480Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-17T14:15:51.440Z [INFO] workspace undefined retrieved successfully
+2025-03-17T16:25:54.051Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-17T16:26:55.380Z [INFO] user 67d4538cff96a3b2c2cf3676 login successfully
+2025-03-17T16:30:39.933Z [INFO] workspace undefined retrieved successfully
+2025-03-17T16:34:54.408Z [INFO] user 67d00d914b4fc7d8366d2c6c invited successfully
+2025-03-17T16:36:51.943Z [INFO] user 67d00d914b4fc7d8366d2c6c login successfully
+2025-03-17T16:40:28.138Z [INFO] User Quentin Post has 1 workspace invites
+2025-03-17T16:56:01.058Z [INFO] User Gary Podzemski has 0 workspace invites
+2025-03-17T17:21:26.582Z [WARN] no invites
+2025-03-17T17:22:00.874Z [INFO] User Quentin Post has 1 workspace invites
+2025-03-18T15:18:34.607Z [INFO] user 67d00d914b4fc7d8366d2c6c login successfully
+2025-03-18T15:20:02.701Z [INFO] User Quentin Post has 1 workspace invites
+2025-03-18T15:24:18.003Z [INFO] User Quentin Post has 1 workspace invites
+2025-03-18T15:50:48.999Z [INFO] QpWarriors@email.com added to workspace 67d6fb87bc783c1fcd7bbc71
+2025-03-18T15:54:19.246Z [WARN] no invites
+2025-03-18T15:56:47.016Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-18T15:58:48.824Z [INFO] new workspace created - {
+  name: 'Subnautica',
+  owner: new ObjectId('67d6fabdbc783c1fcd7bbc6d'),
+  members: [
+    {
+      user: new ObjectId('67d6fabdbc783c1fcd7bbc6d'),
+      role: 'admin',
+      _id: new ObjectId('67d998389129d68b3496cad6')
+    }
+  ],
+  pendingInvites: [],
+  _id: new ObjectId('67d998389129d68b3496cad5'),
+  createdAt: 2025-03-18T15:58:48.561Z,
+  updatedAt: 2025-03-18T15:58:48.561Z,
+  __v: 0
+}
+2025-03-18T16:02:12.705Z [INFO] user 67d00d914b4fc7d8366d2c6c invited successfully
+2025-03-18T16:02:40.633Z [INFO] User Quentin Post has 1 workspace invites
+2025-03-18T16:13:16.697Z [INFO] QpWarriors@email.com rejected workspace 67d998389129d68b3496cad5 invite
+2025-03-18T22:53:44.044Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-18T22:54:36.280Z [INFO] user 67d00d914b4fc7d8366d2c6c invited successfully
+2025-03-18T22:55:03.669Z [INFO] user 67d00d914b4fc7d8366d2c6c login successfully
+2025-03-18T22:57:12.567Z [INFO] QpWarriors@email.com added to workspace 67d998389129d68b3496cad5
+2025-03-22T16:24:39.072Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-22T16:31:04.422Z [INFO] Channels retrieved successfully
+2025-03-22T16:32:51.060Z [WARN] channel 67d998389129d68b3496cad5 not found
+2025-03-22T16:33:31.379Z [INFO] channel 67dee58a837c8e47b0ccbcff deleted
+2025-03-24T16:53:10.762Z [INFO] user 67d6fabdbc783c1fcd7bbc6d login successfully
+2025-03-24T16:55:03.850Z [INFO] workspace undefined retrieved successfully
+2025-03-24T16:56:43.176Z [INFO] Channels retrieved successfully
+2025-03-24T16:59:22.344Z [INFO] Channels retrieved successfully
+2025-03-24T17:03:05.094Z [INFO] Channels retrieved successfully
+2025-03-24T17:05:42.693Z [INFO] Channels retrieved successfully
+2025-03-24T17:05:52.774Z [INFO] Channels retrieved successfully
+2025-03-24T17:08:40.136Z [INFO] message i no play subnautica again sent
+2025-03-24T17:09:46.237Z [INFO] messages retrieved successfully
